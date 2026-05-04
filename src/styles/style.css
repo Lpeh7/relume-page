@@ -1,0 +1,271 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+a {
+    color: black;
+}
+
+/* Header Styles */
+
+header {
+    width: 100%;
+    height: 72px;
+
+    display: flex;
+    padding: 0 64px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.dropdown-nav {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    gap: 4px;
+}
+
+.dropdown-nav button {
+    display: flex;
+    align-items: center;
+}
+
+.hidden-list {
+    background-color: transparent;
+}
+
+header>button {
+    background-color: black;
+    color: white;
+
+    width: 88px;
+    height: 40px;
+    padding: 8px 20px;
+    font-size: 16px;
+}
+
+header>button:hover {
+    background-color: rgb(221, 105, 10);
+    color: white;
+    opacity: 0.9;
+}
+
+/* Hero Styles */
+
+#hero {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    padding: 112px 64px;
+    gap: 80px;
+
+}
+
+.container-right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    gap: 32px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 24px;
+}
+
+.text > h1 {
+    font-size: 56px;
+    font-weight: bold;
+}
+.text > p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.text-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    gap: 16px;
+}
+
+.container-buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+    gap: 16px;
+}
+
+.container-buttons > input {
+    border: 1px solid black;
+    width: 396px;
+    height: 48px;
+    font-size: 16px;
+    padding: 12px;
+}
+
+.container-buttons > button {
+    background-color: black;
+    color: white;
+    width: 101px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container-buttons > button:hover {
+    background-color: rgb(221, 105, 10);
+    color: white;
+    opacity: 0.9;
+}
+
+.text-2 > p {
+    font-size: 12px;
+}
+
+/* Footer Styles */
+
+footer {
+    display: flex;
+    flex-direction: column;
+
+    gap: 80px;
+    padding: 80px 64px;
+}
+/* Parte de cima do footer */
+.footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+.left-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+    gap: 32px;
+
+}
+.left-container > nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    font-size: 14px;
+    font-weight: 500;
+    gap: 32px;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 16px;
+}
+
+.right-container > h2 {
+    font-size: 16px;
+}
+
+.container-primary > .input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    gap: 16px;
+}
+
+.input > input {
+    border: 1px solid black;
+    width: 265px;
+    height: 48px;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.input > button {
+    border: 1px solid black;
+    background-color: white;
+    width: 119px;
+    height: 48px;
+    padding: 12px 24px;
+    font-size: 16px;
+}
+
+.input > button:hover {
+    background-color: rgb(221, 105, 10);
+    color: white;
+    opacity: 0.9;
+}
+
+.right-container > .container-primary {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    gap: 12px;
+}
+
+.container-secundary {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    gap: 4px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.container-secundary > a {
+    text-decoration: underline;
+}
+
+/* Parte de baixo do footer */
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-top: 1px solid black;
+    
+    padding: 32px 0;
+    font-size: 14px;
+}
+
+.footer-bottom > nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+    text-decoration: underline;
+
+    gap: 24px;
+}
