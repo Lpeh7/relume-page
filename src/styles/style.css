@@ -158,7 +158,7 @@ figure > img {
     display: flex;
     flex-direction: column;
     align-items: start;
-    max-width: 941px;
+    max-width: 870px;
     gap: 24px;
 }
 
@@ -172,6 +172,7 @@ figure > img {
     color: #864020;
     font-size: 18px;
     font-weight: 400;
+    flex-wrap: wrap;
 }
 
 .text-2 {
