@@ -4,98 +4,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>relume-page</title>
+    <title>Lar & Grão — Cafeteria</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
     <link rel="stylesheet" href="./src/styles/style.css">
 </head>
 
 <body>
-    <!-- Navbar - 2 -->
+    <!-- Navbar -->
     <header>
         <section>
             <div class="header-content">
                 <div class="company-logo">
-                    <img src="./src/assets/images/company-logo.svg" alt="image-logo-company" width="84" height="36">
+                    <img src="./src/assets/images/coffee-bean-logo.svg" alt="Logo Lar & Grão" width="84" height="84">
+                    <h5>Lar<br>&<br>Grão</h5>
                 </div>
                 <div class="header-nav">
                     <nav>
-                        <a href="#">Link One</a>
-                        <a href="#">Link Two</a>
-                        <a href="#">Link Three</a>
+                        <a href="#">Cardápio</a>
+                        <a href="#">Nossa História</a>
+                        <a href="#">Unidades</a>
                         <div class="dropdown-nav">
-                            <a href="#">Link Four</a>
-                            <button class="hidden-list" aria-expanded="false">
-                                <img src="./src/assets/images/chevron-down.svg" alt="menu">
-                            </button>
+                            <a href="#">Mais</a>
+                            <a class="hidden-list" aria-expanded="false" href="#">
+                                <i class="ti ti-chevron-down"></i>
+                            </a>
                         </div>
                     </nav>
                 </div>
                 <div class="header-btn">
-                    <button>Button</button>
-                    <img id="close" src="./src/assets/images/close-icon.svg" alt="close" width="24" height="24">
+                    <button>Peça agora</button>
+                    <i class="ti ti-x"></i>
                 </div>
             </div>
         </section>
     </header>
-    <!-- Hero header - 22 -->
+
+    <!-- Hero -->
     <section id="hero">
         <figure>
-            <img src="./src/assets/images/placeholder-lightbox.svg" alt="image-hero" width="600" height="600">
+            <img src="./src/assets/images/hero-image.svg" alt="Café gelado Lar & Grão" width="600" height="600">
         </figure>
         <div class="container-right">
             <div class="text">
-                <h1>Medium length hero heading goes here</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
-                    tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero
-                    vitae erat.</p>
+                <h1>Um café feito com carinho, do grão à sua xícara</h1>
+                <p>Na Lar & Grão, cada detalhe importa. Selecionamos os melhores grãos brasileiros para criar experiências únicas, seja num espresso intenso, num coado suave ou num gelado refrescante.</p>
             </div>
             <div class="text-2">
                 <div class="container-buttons">
-                    <input type="email" placeholder="Enter your email">
-                    <button>Sign up</button>
+                    <input type="email" placeholder="Seu melhor e-mail">
+                    <button>Eu quero <i class="ti ti-coffee"></i></button>
                 </div>
-                <p>By clicking Sign Up you're confirming that you agree with our <a href="#">Terms and Conditions.</a>
-                </p>
+                <p>Ao se inscrever, você ganha um café gratuito na sua primeira visita e confirma que leu nossa <a href="#">Política de Privacidade</a>.</p>
             </div>
         </div>
     </section>
-    <!-- Footer - 8 -->
+
+    <!-- Footer -->
     <footer>
         <div class="footer-top">
             <div class="left-container">
-                <img src="./src/assets/images/company-logo.svg" alt="image-company-logo" width="84" height="36">
+                <img src="./src/assets/images/coffee-bean-logo.svg" alt="Logo Lar & Grão" width="84" height="84">
                 <nav>
-                    <a href="#">Link One</a>
-                    <a href="#">Link Two</a>
-                    <a href="#">Link Three</a>
-                    <a href="#">Link Four</a>
-                    <a href="#">Link Five</a>
+                    <a href="#">Cardápio</a>
+                    <a href="#">Nossa História</a>
+                    <a href="#">Unidades</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contato</a>
                 </nav>
             </div>
             <div class="right-container">
-                <h2>Subscribe</h2>
+                <h2>Fique por dentro</h2>
                 <div class="container-primary">
                     <div class="input">
-                        <input type="email" placeholder="Enter your email">
-                        <button>Subscribe</button>
+                        <input type="email" placeholder="Seu melhor e-mail">
+                        <button>Inscrever-se</button>
                     </div>
                     <div class="container-secundary">
-                        <p>By subscribing you agree to with our</p>
-                        <a href="#">Privacy Policy</a>
+                        <p>Ao se inscrever, você concorda com nossa</p>
+                        <a href="#">Política de Privacidade</a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="footer-bottom">
             <nav>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms of Service</a>
-                <a href="#">Cookies Settings</a>
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Termos de Uso</a>
+                <a href="#">Configurações de Cookies</a>
             </nav>
-            <p>© 2024 Relume. All rights reserved.</p>
+            <p>© 2024 Lar & Grão. Todos os direitos reservados.</p>
         </div>
     </footer>
 </body>
